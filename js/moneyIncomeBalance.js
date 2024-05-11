@@ -26,7 +26,7 @@ function displayAdminInfo() {
   writeToConsole(`CASH to Declare : ${cashToDeclare}`);
   writeToConsole(`VISA to Declare : ${visaToDeclare}`);
   writeToConsole(`CASH Envelope Admin : ${cashEnvelopeAdmin}`);
-  writeToConsole(`Tiquet VISA : ${ticketVisa}`);
+  writeToConsole(`Ticket VISA : ${ticketVisa}`);
   writeToConsole(`"FIANZA" Envelope : ${fianzaEnvelope}`);
 }
 
