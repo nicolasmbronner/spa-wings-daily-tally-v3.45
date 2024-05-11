@@ -1,0 +1,86 @@
+body {
+    font-family: "Lekton", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.3rem;
+    background-image: linear-gradient(45deg, #7489D4, #4939bf);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100svh;
+}
+
+.console-container {
+    position: relative;
+    width: 341px;
+    height: 707px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.console-input-form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    grid-row-start: 3;
+    position: relative;
+    padding-left: -1rem;
+    padding-right: 20px;
+}
+
+.console-input {
+    background-color: #3c4385;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: "Lekton", sans-serif;
+    font-size: 0.75rem;
+    width: 100%;
+    padding: 0.5rem 30px 0.5rem 1rem;
+    box-sizing: border-box;
+}
+
+#helpButton {
+    background-color: #3c4385;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-family: "Lekton", sans-serif;
+    cursor: pointer;
+    position: absolute;
+    right: 1.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.separator {
+    border-color: #8e8e8e;
+    width: 100%;
+}
+
+#consoleOutput {
+    margin-top: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.entry {
+  cursor: pointer;
+}
+.entry:hover {
+  background-color: #ddd;
+}
+
+.income {
+    background-color: #f0f0f0;
+  }
+  
+  .tips {
+    background-color: #f0f8ff;
+  }
